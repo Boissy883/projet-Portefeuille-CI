@@ -1,0 +1,10 @@
+<div class="widget">
+  <h3>5 dernières transactions</h3>
+  <ul>
+    <li *ngFor="let tx of transactions">
+      <span>{{ tx.date }}</span>
+      <span>{{ tx.libelle }}</span>
+      <span [class.negatif]="tx.montant < 0">{{ tx.montant | currency:'XOF' }}</span>
+    </li>
+  </ul>
+</div>

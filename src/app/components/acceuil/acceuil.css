@@ -1,0 +1,90 @@
+.acceuil-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Partie haute bleue */
+.haut {
+  background-color: #007BFF;  /* Bleu vif Bootstrap-like */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Partie basse blanche */
+.bas {
+  background-color: white;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenu {
+  display: flex;
+  max-width: 1000px;
+  width: 90%;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* Cadre de connexion */
+.connexion-cadre {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  flex: 1;
+  max-width: 400px;
+}
+
+.connexion-cadre h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007BFF;
+}
+
+.connexion-cadre input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.connexion-cadre button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.connexion-cadre button:hover {
+  background-color: #0056b3;
+}
+
+/* Partie droite : Titre et éléphant */
+.droite {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.titre-droit {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
